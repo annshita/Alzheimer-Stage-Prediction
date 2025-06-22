@@ -138,10 +138,4 @@ python evaluate.py
 
 ---
 
-## Contact
-
-For any queries, feel free to contact: **Anshita Verma**
-
----
-
 *Note: This project was conducted purely for academic and research purposes.*
