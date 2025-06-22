@@ -131,10 +131,11 @@ python evaluate.py
 
 ## Acknowledgements
 
-* ADNI: Alzheimer's Disease Neuroimaging Initiative
-* OASIS: Open Access Series of Imaging Studies
-* MedViT authors for pretrained models
-* ConvNeXt authors for open-source pretrained models
+- [ADNI](http://adni.loni.usc.edu/): Alzheimer's Disease Neuroimaging Initiative
+- [OASIS](https://www.oasis-brains.org/): Open Access Series of Imaging Studies
+- [MedViT](https://github.com/Omid-Nejati/MedViT): Medical Vision Transformer authors for open-source pretrained models
+- [ConvNeXt](https://github.com/facebookresearch/ConvNeXt): ConvNeXt authors for open-source pretrained models
+
 
 ---
 
