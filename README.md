@@ -1,7 +1,6 @@
-# Alzheimer-Stage-Prediction
 # Alzheimer's Stage Prediction
 
-This project focuses on the prediction of Alzheimer's disease stages using deep learning models applied to brain MRI data. Specifically, I have utilized the ConvNeXt architecture on ADNI and OASIS datasets, and MedViT on the ADNI dataset.
+This project focuses on predicting Alzheimer's disease stages using deep learning models applied to brain MRI data. Specifically, I have utilised the ConvNeXt architecture on ADNI and OASIS datasets, and MedViT on the ADNI dataset.
 
 ---
 
@@ -28,7 +27,7 @@ Alzheimer's Disease (AD) is a neurodegenerative disorder characterized by progre
 
 ### ADNI (Alzheimer's Disease Neuroimaging Initiative)
 
-* Multi-class MRI dataset categorized into: Alzheimer's Disease (AD), Mild Cognitive Impairment (MCI), and Cognitively Normal (CN).
+* Multi-class MRI dataset categorized into: Alzheimer's Disease (AD), Cognitive Impairment (CI), and Cognitively Normal (CN).
 * Preprocessed axial slices were used for training.
 
 ### OASIS (Open Access Series of Imaging Studies)
@@ -59,7 +58,7 @@ Alzheimer's Disease (AD) is a neurodegenerative disorder characterized by progre
 1. **Data Preparation:**
 
    * Loaded and preprocessed MRI slices.
-   * Data augmentation techniques applied to improve generalization.
+   * Resized images according to the requirement of tghe given models.
 
 2. **Model Training:**
 
@@ -78,11 +77,9 @@ Alzheimer's Disease (AD) is a neurodegenerative disorder characterized by progre
 
 | Model    | Dataset | Accuracy |
 | -------- | ------- | -------- |
-| ConvNeXt | ADNI    | XX%      |
-| ConvNeXt | OASIS   | XX%      |
-| MedViT   | ADNI    | XX%      |
-
-(*Replace XX% with actual results after evaluation*)
+| ConvNeXt | ADNI    | 99.33%      |
+| ConvNeXt | OASIS   | 99.45%      |
+| MedViT   | ADNI    | 96.51%      |
 
 ---
 
