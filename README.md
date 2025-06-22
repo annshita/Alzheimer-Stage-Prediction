@@ -1,1 +1,1 @@
-# Alzheimer-Stage-Prediction
+# Alzheimer-Stage-Prediction-using-ConvNext
